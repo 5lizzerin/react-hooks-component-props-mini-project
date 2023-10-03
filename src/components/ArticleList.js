@@ -10,7 +10,9 @@ function ArticleList ({post}) {
     preview={posts.preview} 
     />
     ));
-    return <main>{array}</main>;
+    return (
+    <main>{array}</main>
+    )
 
 }
 export default ArticleList
